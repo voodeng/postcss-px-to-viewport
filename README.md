@@ -74,12 +74,14 @@ If your project involves a fixed width, this script will help to convert pixels 
 ### Installation
 Add via npm
 ```
-$ npm install postcss-px-to-viewport --save-dev
+$ npm install postcss postcss-px-to-viewport --save-dev
 ```
 or yarn
 ```
-$ yarn add -D postcss-px-to-viewport
+$ yarn add -D postcss postcss-px-to-viewport
 ```
+
+2021-01-13: `chore: support PostCss 8` clean PostCss 8 notices
 
 ### Usage
 

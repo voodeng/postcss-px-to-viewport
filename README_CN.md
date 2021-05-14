@@ -74,12 +74,14 @@
 ### 安装
 使用npm安装
 ```
-$ npm install postcss-px-to-viewport --save-dev
+$ npm install postcss postcss-px-to-viewport --save-dev
 ```
 或者使用yarn进行安装
 ```
-$ yarn add -D postcss-px-to-viewport
+$ yarn add -D postcss postcss-px-to-viewport
 ```
+
+2021-01-13: `chore: support PostCss 8` 消除 PostCss 8 提示
 
 ### 配置参数
 
